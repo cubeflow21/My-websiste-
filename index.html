@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj Chaudhary | Future AI Engineer</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            overflow-x: hidden;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ff6347;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            animation: fadeIn 2s ease-out;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-50px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Content Section */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .skills, .portfolio, .blog, .contact {
+            padding: 20px;
+            background: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            opacity: 0;
+            animation: fadeInSection 2s ease-out forwards;
+        }
+
+        @keyframes fadeInSection {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        /* Skills Animation */
+        .skills p {
+            font-size: 1.2em;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            opacity: 0;
+            animation: fadeInSection 3s ease-out forwards;
+        }
+
+        .skills p span {
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .skills p span:hover {
+            transform: scale(1.1);
+        }
+
+        /* Portfolio Cards */
+        .portfolio {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .portfolio .card {
+            width: 45%;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .portfolio .card:hover {
+            transform: translateY(-10px);
+        }
+
+        /* Footer Animation */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            opacity: 0;
+            animation: fadeInSection 4s ease-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        Suraj Chaudhary | Future AI Engineer
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        AI Enthusiast | Future AI Engineer | Innovator
+    </div>
+    <div id="about" class="content">
+        <h2>About Me</h2>
+        <p>I'm Suraj Chaudhary, a passionate AI enthusiast pursuing a Bachelor's in Artificial Intelligence. My goal is to integrate AI into agriculture and create smart farming solutions.</p>
+    </div>
+    <div id="skills" class="skills">
+        <h2>Skills</h2>
+        <p>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>Python</span>
+            <span>Web Development</span>
+            <span>AI-powered Applications</span>
+        </p>
+    </div>
+    <div id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <h3>Automated Farming Framework for Sustainable Agriculture</h3>
+    <p>The Automated Farming Framework for Sustainable Agriculture is an innovative project that integrates tech-driven solutions into farming practices to enhance productivity, reduce waste, and ensure environmental sustainability.</p>
+    <ul>
+        <li><strong>Smart Irrigation:</strong> Automated irrigation system based on real-time weather and soil conditions, reducing water wastage.</li>
+        <li><strong>Climate-Adaptive Farming:</strong> Predictive models for optimal planting and harvesting times, ensuring climate-resilient agriculture.</li>
+        <li><strong>Real-time Monitoring:</strong> Continuous data collection from sensors, providing insights for better decision-making on crop health and resource use.</li>
+        <li><strong>Automated Crop Monitoring:</strong> AI-powered drones and cameras for detecting early signs of disease or pest infestations, enabling early intervention.</li>
+        <li><strong>Precision Farming :</strong> Precision application of water, fertilizers, and pesticides based on real-time data, reducing waste and cost.</li>
+    </ul>
+    <p>This framework is designed to be scalable and adaptable, making it suitable for both small-scale farms and large agricultural operations. By combining automation, AI, and data analytics, the system helps farmers maximize efficiency and sustainability.</p>
+
+    <h3>Upcoming Project: AI-Powered Agritech Company</h3>
+    <p>As an aspiring AI engineer with a passion for sustainable agriculture, I am working towards establishing an AI-powered Agritech company in Nepal. This company will focus on developing AI-driven technologies to revolutionize farming practices and solve challenges faced by the agriculture industry. The goal is to integrate cutting-edge technologies like machine learning, IoT, and robotics into various aspects of farming.</p>
+    <ul>
+        <li><strong>AI for Precision Farming:</strong> Implementing AI solutions to monitor and optimize crop health, irrigation, fertilization, and pest control in real time, ensuring efficient use of resources.</li>
+        <li><strong>Smart Irrigation Systems:</strong> Using data analytics and AI to optimize water usage, reducing waste and improving crop yield while conserving water resources.</li>
+        <li><strong>Robotic Automation:</strong> Developing autonomous robots for tasks such as planting, weeding, harvesting, and monitoring crops to increase farm productivity and reduce labor costs.</li>
+        <li><strong>Soil Health Monitoring:</strong> Creating AI-powered systems to analyze soil quality and recommend the best practices for improving soil health, ensuring sustainable agricultural practices.</li>
+        <li><strong>AI-driven Market Prediction:</strong> Using AI models to predict market trends, helping farmers make informed decisions about what to plant and when to sell, ensuring better profitability.</li>
+    </ul>
+    <p>This venture will aim to improve Nepal’s agricultural productivity, reduce food insecurity, and make farming more sustainable. By combining AI and agritech, the company will empower local farmers with tools to improve crop yield, resource efficiency, and ultimately, their quality of life.</p>
+</div>
+
+    </div>
+    <div id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Sharing insights on AI, Agritech, and future technology trends.</p>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: gisjsud278@gmail.com | Facebook: <a href="https://www.facebook.com/profile.php?id=100081193012204" target="_blank">facebook.com</a></p>
+    </div>
+    <footer>
+        &copy; 2025 Suraj Chaudhary | Future AI Engineer | All Rights Reserved
+    </footer>
+</body>
+</html>
