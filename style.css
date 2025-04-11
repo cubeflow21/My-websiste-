@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RX | Future AI Engineer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        nav {
+            background: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .hero {
+            background: url('https://via.placeholder.com/1500x500') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .skills, .portfolio, .blog, .contact {
+            padding: 20px;
+            background: white;
+            margin: 20px auto;
+            width: 80%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        RX | Future AI Engineer
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        AI Enthusiast | Future AI Engineer | Innovator
+    </div>
+    <div id="about" class="content">
+        <h2>About Me</h2>
+        <p>I'm RX, a passionate AI enthusiast pursuing a Bachelor's in Artificial Intelligence. My goal is to integrate AI into agriculture and create smart farming solutions.</p>
+    </div>
+    <div id="skills" class="skills">
+        <h2>Skills</h2>
+        <p>Machine Learning | Deep Learning | Python | Web Development | AI-powered Applications</p>
+    </div>
+    <div id="portfolio" class="portfolio">
+        <h2>Portfolio</h2>
+        <p>Automated Greenhouse System | AI-powered Web Apps | Computer Vision Projects</p>
+    </div>
+    <div id="blog" class="blog">
+        <h2>Blog</h2>
+        <p>Sharing insights on AI, Agritech, and future technology trends.</p>
+    </div>
+    <div id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: rx@example.com | LinkedIn: linkedin.com/in/rx-ai</p>
+    </div>
+    <footer>
+        &copy; 2025 RX | Future AI Engineer | All Rights Reserved
+    </footer>
+</body>
+</html>
